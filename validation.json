@@ -1,0 +1,89 @@
+{
+  "testedAt": "2026-09-12T23:35:59.100Z",
+  "checks": [
+    "Desktop walking and gesture-started audio",
+    "Door opens, greeting appears, dismissal preserves in-world slate",
+    "Sound toggle and return to trailhead",
+    "Mobile layout and touch walking",
+    "Immersive stereo session and floor-relative eye height",
+    "Left thumbstick smooth walking",
+    "Held right thumbstick keeps turning continuously without snap or head drift",
+    "Walking follows world gaze after rig rotation",
+    "Room-scale boundary correction preserves tracked crouch height",
+    "Quest trigger opens doorway and world-space welcome slate",
+    "XR exit restores desktop controls"
+  ],
+  "desktop": {
+    "frames": 24,
+    "playing": true,
+    "xr": false,
+    "position": {
+      "x": -3.0302025815043017,
+      "y": 2.5982814814814814,
+      "z": -24
+    },
+    "rig": {
+      "x": -3.0302025815043017,
+      "y": 0.9482814814814814,
+      "z": -24,
+      "yaw": 0
+    },
+    "near": false,
+    "opened": false,
+    "doorAngle": 0,
+    "audio": true,
+    "drawCalls": 35,
+    "triangles": 178503,
+    "geometries": 35,
+    "textures": 3
+  },
+  "xrEntry": {
+    "frames": 12,
+    "playing": true,
+    "xr": true,
+    "position": {
+      "x": 0,
+      "y": 1.600000023841858,
+      "z": 20
+    },
+    "rig": {
+      "x": 0,
+      "y": 0,
+      "z": 20,
+      "yaw": 0
+    },
+    "near": false,
+    "opened": false,
+    "doorAngle": 0,
+    "audio": true,
+    "drawCalls": 76,
+    "triangles": 357010,
+    "geometries": 37,
+    "textures": 3
+  },
+  "xrThreshold": {
+    "frames": 93,
+    "playing": true,
+    "xr": true,
+    "position": {
+      "x": 0,
+      "y": 2.8462523386566727,
+      "z": -39
+    },
+    "rig": {
+      "x": 0,
+      "y": 1.2462523148148148,
+      "z": -39,
+      "yaw": 0
+    },
+    "near": true,
+    "opened": true,
+    "doorAngle": 1.6314844254387877,
+    "audio": true,
+    "drawCalls": 68,
+    "triangles": 351810,
+    "geometries": 38,
+    "textures": 4
+  },
+  "errors": []
+}

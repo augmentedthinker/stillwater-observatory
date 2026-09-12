@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {center,height,halfWidth,isValid,move,boundedHead,direction,START,END,TURN_RATE} from '../navigation.js';
+test('entire trail centre can be walked from spawn to the threshold',()=>{let p={x:center(START),z:START};for(let z=START-.02;z>=END;z-=.02){p=move(p,center(z)-p.x,z-p.z);assert.ok(isValid(p.x,p.z));}assert.ok(p.z<END+.03)});
+test('both banks contain repeated diagonal pushes throughout curved trail',()=>{for(let z=END;z<=START;z+=.4)for(let side of [-1,1]){let p={x:center(z),z};for(let j=0;j<80;j++){p=move(p,side*.1,Math.sin(j)*.04);assert.ok(isValid(p.x,p.z),JSON.stringify(p))}assert.ok(Math.abs(p.x-center(p.z))<=halfWidth(p.z)+1e-8)}});
+test('large movements do not tunnel through either bank or endpoints',()=>{for(let d of [[200,0],[-200,0],[30,-100],[-30,100]]){const p=move({x:center(0),z:0},...d);assert.ok(isValid(p.x,p.z))}});
+test('room-scale outliers are restored to a legal corridor',()=>{for(let z=END-10;z<=START+10;z+=.31)for(const side of [-1,1]){let p=boundedHead(center(z)+side*12,z);assert.ok(isValid(p.x,p.z),JSON.stringify(p))}});
+test('terrain is continuous at path banks and remains walkable',()=>{for(let z=END;z<=START;z+=.2)for(let x=-4;x<=4;x+=.1){let wx=center(z)+x;assert.ok(Math.abs(height(wx+.0001,z)-height(wx,z))<.001);if(Math.abs(x)<halfWidth(z))assert.ok(Number.isFinite(height(wx,z)))}});
+test('gaze-relative movement, normalized diagonal speed and 58 degree smooth turn',()=>{let a=direction(0,0,-1,1);assert.ok(a.dz<0&&a.dx===0);let b=direction(Math.PI/2,0,-1,1);assert.ok(b.dx<0&&Math.abs(b.dz)<1e-8);assert.ok(Math.abs(Math.hypot(...Object.values(direction(0,1,1,1)))-1.65)<1e-8);assert.equal(Math.round(TURN_RATE*180/Math.PI),58)});
