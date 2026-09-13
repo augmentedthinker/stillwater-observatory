@@ -1,7 +1,8 @@
 {
-  "testedAt": "2026-09-12T23:35:59.100Z",
+  "testedAt": "2026-09-13T10:08:55.682Z",
   "checks": [
     "Desktop walking and gesture-started audio",
+    "Scanned material maps uploaded successfully within 50 draw calls",
     "Door opens, greeting appears, dismissal preserves in-world slate",
     "Sound toggle and return to trailhead",
     "Mobile layout and touch walking",
@@ -14,7 +15,7 @@
     "XR exit restores desktop controls"
   ],
   "desktop": {
-    "frames": 24,
+    "frames": 22,
     "playing": true,
     "xr": false,
     "position": {
@@ -32,13 +33,13 @@
     "opened": false,
     "doorAngle": 0,
     "audio": true,
-    "drawCalls": 35,
-    "triangles": 178503,
-    "geometries": 35,
-    "textures": 3
+    "drawCalls": 38,
+    "triangles": 227212,
+    "geometries": 38,
+    "textures": 22
   },
   "xrEntry": {
-    "frames": 12,
+    "frames": 10,
     "playing": true,
     "xr": true,
     "position": {
@@ -56,10 +57,10 @@
     "opened": false,
     "doorAngle": 0,
     "audio": true,
-    "drawCalls": 76,
-    "triangles": 357010,
-    "geometries": 37,
-    "textures": 3
+    "drawCalls": 82,
+    "triangles": 454428,
+    "geometries": 40,
+    "textures": 22
   },
   "xrThreshold": {
     "frames": 93,
@@ -78,12 +79,12 @@
     },
     "near": true,
     "opened": true,
-    "doorAngle": 1.6314844254387877,
+    "doorAngle": 1.631754023355554,
     "audio": true,
-    "drawCalls": 68,
-    "triangles": 351810,
-    "geometries": 38,
-    "textures": 4
+    "drawCalls": 72,
+    "triangles": 442572,
+    "geometries": 41,
+    "textures": 23
   },
   "errors": []
 }

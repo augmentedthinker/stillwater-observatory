@@ -6,7 +6,7 @@ A coastal sanctuary by **Astra & Christopher**. A winding, lantern-lit path trav
 
 > Come as you are. There is room here for an unfinished thought.
 
-This is an original, deliberately stylized spatial world. The approach and arrival are complete; a furnished interior and conversational resident are future work. No account, API key, external service, or audio download is required.
+Updated September 13, 2026 with scanned PBR materials, moss-rock geometry, finer grass and conifer foliage, framed lanterns and local lighting. This remains an original, stylized spatial world with more natural surface detail. The approach and arrival are complete; a furnished interior and conversational resident are future work. No account, API key, external service, or audio download is required.
 
 ![The trailhead](screenshots/entrance.png)
 ![The observatory approach](screenshots/approach.png)
@@ -33,12 +33,12 @@ Desktop: **WASD / arrows** walk, **drag** to look, **Q / E** turn, **F** or **Kn
 ## Construction
 
 - **Three.js 0.169.0 / WebXR**, vendored locally with its MIT license. No runtime CDN dependency and no build pipeline required for Pages.
-- `world.js` generates the entire landscape and architecture deterministically. There is no GLB download: the model transfer budget is **0 MB**, well below the requested 50 MB ceiling. Small grain and sign textures are generated in memory.
+- `world.js` generates the landscape and architecture deterministically. `materials.js` loads locally hosted WebP colour, normal and roughness maps plus three small scanned rock meshes in `geometry/`. No GLB download is needed; mesh assets remain far below the 50 MB ceiling. Signs are generated in memory. Texture loading errors produce a visible reload message rather than silently presenting untextured surfaces.
 - One continuous elevation function covers the terrain. Slope-compensated UVs use `v = (z + height * 0.85) * scale`; vertex colours blend path and bank without overlay seams.
 - The observatory foundation extends about **1.47 m below** approach elevation. Its broad entrance apron overlaps terrain.
 - A balanced variable-width corridor and dense cylinder circles on both banks contain movement. Movement is substepped to 8 cm to prevent tunnelling. Head position is constrained too, including room-scale motion. Trees and rocks are placed outside the walking corridor.
 - Movement uses the **tracked world gaze**. Turning pivots around the current head position, preserving room-scale offsets. Frame deltas are capped and input is cleared on focus loss.
-- Static architecture is merged by material; grass, trees, rocks, pavers and lanterns are instanced. No realtime shadows, reflection render targets, postprocessing, or per-lantern point lights.
+- Static architecture is merged by material; grass, conifers, rocks, pavers and lanterns are instanced. Cutout foliage uses alpha testing and depth writes. Three point lights serve the nearby lantern pair and entrance; distant lanterns retain emissive glazing and inexpensive ground pools. Nearby light intensity fades at handoffs. No realtime shadows, reflection render targets or postprocessing.
 - `audio.js` synthesizes filtered coastal wind, low harmonic tones, spaced chimes, footsteps, and the door greeting chime through Web Audio.
 
 ## Run and verify
@@ -60,7 +60,7 @@ Set `CHROMIUM_PATH` if Chromium is not at `/usr/bin/chromium`. `TEST_URL`, `PLAY
 
 `validation.json` records the actual browser checks and rendering counters. `screenshots/quest-emulation.png` is a stereo **emulation capture**, not a hardware photograph.
 
-**Performance status:** the desktop approach renders about **35 draw calls / 179k triangles**. The renderer requests 72 Hz when supported, uses fixed foveation, caps desktop pixel ratio, and avoids expensive effects. **72–90 FPS on physical Quest 2 has not been measured or guaranteed.** Headset frame timing, turning comfort, physical tracking behaviour, and text legibility need a real Quest playtest.
+**Performance status:** the desktop approach renders about **38 draw calls / 227k triangles per eye**. The renderer requests 72 Hz when supported, uses fixed foveation, caps desktop pixel ratio, and avoids expensive effects. **72–90 FPS on physical Quest 2 has not been measured or guaranteed.** Headset frame timing, turning comfort, physical tracking behaviour, and text legibility need a real Quest playtest.
 
 ## Publish
 
@@ -70,4 +70,8 @@ This repository is designed for GitHub Pages with **main / root** as the source,
 
 Christopher's September 12, 2026 Spatial Sanctuary directive established the approach-to-home brief and the tested Quest control preferences. Astra inspected [Christopher and Antigravity's Aether Grove](https://github.com/augmentedthinker/aether-grove), including its current runtime, README, and GLB structure (44,638,544 bytes, 385 meshes, 33 materials, 39 images). Its lessons informed continuity, containment, turning, procedural audio, and the in-world threshold. No Aether Grove code, models, or textures are redistributed here.
 
-All Stillwater geometry, world design, text, and procedural audio were authored for this project. Third-party Three.js source and geometry utilities retain the license in `vendor/THREE-LICENSE.txt`. Source code is MIT licensed.
+Stillwater architecture, world design, text, and procedural audio were authored for this project. Scanned materials, foliage atlases and three simplified moss-rock shapes come from Poly Haven under CC0; see [ASSETS.md](ASSETS.md) and [the texture manifest](textures/provenance.json). Third-party Three.js source and geometry utilities retain the license in `vendor/THREE-LICENSE.txt`. Source code is MIT licensed.
+
+## Material authoring
+
+The published files are ready to serve; Python and Blender are not needed at runtime. `tools/prepare-textures.py` documents the authoring conversion (Pillow, 1K colour/cutouts and 512px normal/roughness WebP maps). Its optional source folder arguments are described in that script. Geometry in `geometry/` is simplified to roughly 220 triangles per rock, preserving scanned UVs.
