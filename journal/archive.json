@@ -1,0 +1,270 @@
+[
+  {
+    "version": "v1",
+    "commit": "fc31a00f94992a84b681b94aac22ea724e2c7385",
+    "runtime": [
+      {
+        "file": ".nojekyll",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "LICENSE",
+        "sha256": "246ac636c29e6d5d43a6c04a4cd406a482073933646ec27dd2b38586604c1537"
+      },
+      {
+        "file": "audio.js",
+        "sha256": "d6d835b5e6bc731a8ed58b692c764a54572ca8dc2c66160b6404ec00ef8e5019"
+      },
+      {
+        "file": "index.html",
+        "sha256": "0d08330280ad2176f9ee1468b0032b9e83651e2f633a25a8b590eb5cf3822b9c"
+      },
+      {
+        "file": "main.js",
+        "sha256": "4ed4e0151371e652933233ac682dd59a2125eafaf1478ad7ec5b045e47b49f44"
+      },
+      {
+        "file": "navigation.js",
+        "sha256": "682fad41bc322892af26e51c4aed183d9676e99278fd45f1f92e7c2fe76b783d"
+      },
+      {
+        "file": "style.css",
+        "sha256": "f4568c58dde5e2a72b963ca35f692632d299cef3acdb74ddaa954e0d5ef546f2"
+      },
+      {
+        "file": "vendor/BufferGeometryUtils.js",
+        "sha256": "3de832095679e56578beddf70f3e90846a47ec8a886fa8eb21c973cdaef88922"
+      },
+      {
+        "file": "vendor/THREE-LICENSE.txt",
+        "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+      },
+      {
+        "file": "vendor/three.module.js",
+        "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+      },
+      {
+        "file": "world.js",
+        "sha256": "f8dd7ee20275c0db74f4f6ca053d558d06270462adeb866153063f5ad6022879"
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "journal/photos/v1/entrance.webp",
+        "source": "screenshots/entrance.png",
+        "originalSha256": "099f7faf94ccf1be2de4325b737f5ea28605a4b932b2cfaddfd34e59edfdde52",
+        "sha256": "40bddc54eb8c87d1492cc0ed40f73354e685bedefb037e994b22f836a44d85df"
+      },
+      {
+        "file": "journal/photos/v1/approach.webp",
+        "source": "screenshots/approach.png",
+        "originalSha256": "370232e7ee7dc95d0bffee7a3552814954af8f8c718491a615e4ccde39a286c7",
+        "sha256": "b134b60afacf28780e1e2739f11e5d2cf55952a47aebd33a75cd3f970ae98abe"
+      },
+      {
+        "file": "journal/photos/v1/courtyard.webp",
+        "source": "screenshots/courtyard.png",
+        "originalSha256": "de883910e00caac244f4abffeaaaa946d185ef3dd4916b8afa6425a3b2b77cad",
+        "sha256": "0e23b006195b038e7bf72e16f6eda6abc5c08ff598d89294e90e93d365f1c09c"
+      },
+      {
+        "file": "journal/photos/v1/threshold.webp",
+        "source": "screenshots/threshold.png",
+        "originalSha256": "de346e53e50d8de4904fb8c5dee527cb5e06da711bf83d19a2f8edee4aa18b9c",
+        "sha256": "74d55c338e6f4691a045216aa132d5b7f030a5a8350a23f36e3ed26287c3b14b"
+      }
+    ]
+  },
+  {
+    "version": "v2",
+    "commit": "dc45fb2574d299dd03dab67da4ad7e44bd468709",
+    "runtime": [
+      {
+        "file": ".nojekyll",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "file": "ASSETS.md",
+        "sha256": "ccb9275a049a1793958df8d0b335b591cb8901de8fb6fd890ac2dcc3aca8bad3"
+      },
+      {
+        "file": "LICENSE",
+        "sha256": "246ac636c29e6d5d43a6c04a4cd406a482073933646ec27dd2b38586604c1537"
+      },
+      {
+        "file": "audio.js",
+        "sha256": "d6d835b5e6bc731a8ed58b692c764a54572ca8dc2c66160b6404ec00ef8e5019"
+      },
+      {
+        "file": "geometry/rock-0.json",
+        "sha256": "f62ad2c10a3f8a231daa845aec8f43edd4c7fdcc304d0e4a5f117468b333da05"
+      },
+      {
+        "file": "geometry/rock-1.json",
+        "sha256": "573689eada7c239e54633d200d03b69e9f681ae3fcda7183a7c19cd89ebbd35e"
+      },
+      {
+        "file": "geometry/rock-2.json",
+        "sha256": "8f027c08ef011402962f108fbb5a2e8d7761f0b8698c8eccf34ba9af0a93102c"
+      },
+      {
+        "file": "index.html",
+        "sha256": "0d08330280ad2176f9ee1468b0032b9e83651e2f633a25a8b590eb5cf3822b9c"
+      },
+      {
+        "file": "main.js",
+        "sha256": "4ef1f3d6b705121bdee76505cf5e242271aa6efb274962eb1b60a44fc0acf8eb"
+      },
+      {
+        "file": "materials.js",
+        "sha256": "7d39c52f417bb90a1e838eb155b7fd965cd5fdf8509ff935d4ac133355f1555d"
+      },
+      {
+        "file": "navigation.js",
+        "sha256": "682fad41bc322892af26e51c4aed183d9676e99278fd45f1f92e7c2fe76b783d"
+      },
+      {
+        "file": "style.css",
+        "sha256": "f4568c58dde5e2a72b963ca35f692632d299cef3acdb74ddaa954e0d5ef546f2"
+      },
+      {
+        "file": "textures/bark-color.webp",
+        "sha256": "cecaec9810c46529d9c3c928d958a96fc6dd37cbcc38702521c1462ccc3bfa4b"
+      },
+      {
+        "file": "textures/bark-normal.webp",
+        "sha256": "40d74678232a5f41f876f46215cf6603b8d99a48a1f6a547975e397b800424e7"
+      },
+      {
+        "file": "textures/bark-rough.webp",
+        "sha256": "8493f5bf8a92e43bb80e2e6398c4036c250712e39d36a504a6e613183d14cc2e"
+      },
+      {
+        "file": "textures/grass.webp",
+        "sha256": "e515a85e89bb72a6470c92dd68b76204662876a14b57b9a15e7ba3a16433180d"
+      },
+      {
+        "file": "textures/gravel-color.webp",
+        "sha256": "d7e4aafe2a99d51aab10c7d4f77f50eec9c857bb423a1f7156ddb9888978da9f"
+      },
+      {
+        "file": "textures/gravel-normal.webp",
+        "sha256": "b0730d7d5c076cc5806aded9b434a15a616bf4360204fccccc742de15c49ddc0"
+      },
+      {
+        "file": "textures/gravel-rough.webp",
+        "sha256": "79e23f83381a12e1fb6b2d38548c88d69e8eaa332738a0a055f7c5202ef3500b"
+      },
+      {
+        "file": "textures/masonry-color.webp",
+        "sha256": "17789895a64ca4dbcd9271bea8c29bb3af1d492be30e60e9b4c4435520f56ba9"
+      },
+      {
+        "file": "textures/masonry-normal.webp",
+        "sha256": "e3359153d9d82df50032000af0834157d0dd492b15fe68d7a7f9d925bfb4fc27"
+      },
+      {
+        "file": "textures/masonry-rough.webp",
+        "sha256": "d30b396780a95a40293232de697b28efdab5699225e375c9594c01e39530ff5a"
+      },
+      {
+        "file": "textures/needles.webp",
+        "sha256": "a284a40b4d591d732dd2c84312ed6e26960d4c30404872924face16915125dd8"
+      },
+      {
+        "file": "textures/paving-color.webp",
+        "sha256": "a74be6baaec53776ee1aacc55a0d94fd04376380077496589a555d3addc7907a"
+      },
+      {
+        "file": "textures/paving-normal.webp",
+        "sha256": "670961cf8cf30b151af0b882116999a8a38f82cbc439300628baf11470762af9"
+      },
+      {
+        "file": "textures/paving-rough.webp",
+        "sha256": "1b37a610ef0c07b5b8aa2c2f407e8f1477887315102a7da44d0419030a12c38c"
+      },
+      {
+        "file": "textures/plaster-color.webp",
+        "sha256": "9e954e6e9fd0e8ddaecbdf8657c7b0f16ac32dc6d172ac90a585b2a281d8f8f1"
+      },
+      {
+        "file": "textures/plaster-normal.webp",
+        "sha256": "648d08420eb9502ee14a765697047ec0cfdc0f6db86b04fd667ae91880456871"
+      },
+      {
+        "file": "textures/plaster-rough.webp",
+        "sha256": "77ee725168a36fe507f79c71d68e9dddf8d08caf396e7956ceaf9b86e88bfa70"
+      },
+      {
+        "file": "textures/provenance.json",
+        "sha256": "856f146d77bbb52d95411e5c79575bc6587be441c5b6e86915c60c0cdc209f6b"
+      },
+      {
+        "file": "textures/rock-color.webp",
+        "sha256": "ac2f67a7b922923cbb4a800997ef9ff355e378370f2ac24e322811bd840bdcc3"
+      },
+      {
+        "file": "textures/rock-normal.webp",
+        "sha256": "6bfa57e18a04391f1cd7fdee7972b6b0d32b9bfa79717dd925d4413c598763e5"
+      },
+      {
+        "file": "textures/rock-rough.webp",
+        "sha256": "04fa7008cb0078effc2acf6d9a529fd5a9eb1a08edee511ba3ad6b6178fc4d38"
+      },
+      {
+        "file": "textures/soil-color.webp",
+        "sha256": "f604d95e119cae0506428c9c32a3c6fae59f09461efe24e5b09fc804e388d693"
+      },
+      {
+        "file": "textures/soil-normal.webp",
+        "sha256": "9b502b7424133833c971ce5452aa92b406ce4f47cf2246591cb49820758470cf"
+      },
+      {
+        "file": "textures/soil-rough.webp",
+        "sha256": "618a3b71036ad518d202772d6ece587d799bc62270509218df4ce89fcdfce04a"
+      },
+      {
+        "file": "vendor/BufferGeometryUtils.js",
+        "sha256": "3de832095679e56578beddf70f3e90846a47ec8a886fa8eb21c973cdaef88922"
+      },
+      {
+        "file": "vendor/THREE-LICENSE.txt",
+        "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+      },
+      {
+        "file": "vendor/three.module.js",
+        "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+      },
+      {
+        "file": "world.js",
+        "sha256": "c80fc4b292caf64762e785bae03641173e528387551dc0d6e43b024be74047f2"
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "journal/photos/v2/entrance.webp",
+        "source": "screenshots/entrance.png",
+        "originalSha256": "89d468bce082ffe33ac8f488797fbfcb95f4078c1984541edde1d20b72f84614",
+        "sha256": "cec9bd386c5302821b71ec4d0345d3ba814589ee33da3d3b923088521d5b8e03"
+      },
+      {
+        "file": "journal/photos/v2/approach.webp",
+        "source": "screenshots/approach.png",
+        "originalSha256": "630c31bdf8010732835d723bba344ef481dddbdf9944e61104823f34ffa25bf6",
+        "sha256": "64429868256f007aa773c0cca20e952097b9346b689c798754b42ab1e53149b1"
+      },
+      {
+        "file": "journal/photos/v2/courtyard.webp",
+        "source": "screenshots/courtyard.png",
+        "originalSha256": "f1f1961599fcd5e2adce2d5b6c920ee0b9a92241896b864c07ef20a3f17a5eef",
+        "sha256": "11501965de40d749e5d5db9e22ab12da061b0a6e6a798a4985d4abb7de6d7f64"
+      },
+      {
+        "file": "journal/photos/v2/threshold.webp",
+        "source": "screenshots/threshold.png",
+        "originalSha256": "62bb01f0a1728bff83c26c48a7f6f1a8eec4c3008b9d3e4f721460b3c99e2328",
+        "sha256": "83185a187d5cc21688de96a628ea905fbe67fa34cdb3135994c32ef194219d6c"
+      }
+    ]
+  }
+]

@@ -2,6 +2,8 @@
 
 **[Walk the path →](https://augmentedthinker.github.io/stillwater-observatory/)**
 
+[Explore the development journal](https://augmentedthinker.github.io/stillwater-observatory/progression.html): four matching before-and-after viewpoints, the working passes and their lessons, and two playable archives: [V1](https://augmentedthinker.github.io/stillwater-observatory/versions/v1/) / [V2](https://augmentedthinker.github.io/stillwater-observatory/versions/v2/). The journal distinguishes preserved releases from intermediate changes that were not separately captured. Frozen runtime and screenshot hashes are recorded in [journal/archive.json](journal/archive.json); see [archive maintenance](journal/README.md).
+
 A coastal sanctuary by **Astra & Christopher**. A winding, lantern-lit path travels through silver grass and cypresses to a pale circular observatory. A patinated dome carries a slowly moving brass celestial instrument. The door opens onto a small vestibule and a welcome:
 
 > Come as you are. There is room here for an unfinished thought.

@@ -1,0 +1,278 @@
+[
+  {
+    "file": "gravel-color.webp",
+    "source": "https://polyhaven.com/a/rocky_gravel",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 479224,
+    "sha256": "d7e4aafe2a99d51aab10c7d4f77f50eec9c857bb423a1f7156ddb9888978da9f"
+  },
+  {
+    "file": "gravel-normal.webp",
+    "source": "https://polyhaven.com/a/rocky_gravel",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 158158,
+    "sha256": "b0730d7d5c076cc5806aded9b434a15a616bf4360204fccccc742de15c49ddc0"
+  },
+  {
+    "file": "gravel-rough.webp",
+    "source": "https://polyhaven.com/a/rocky_gravel",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 28780,
+    "sha256": "79e23f83381a12e1fb6b2d38548c88d69e8eaa332738a0a055f7c5202ef3500b"
+  },
+  {
+    "file": "masonry-color.webp",
+    "source": "https://polyhaven.com/a/large_sandstone_blocks",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 221830,
+    "sha256": "17789895a64ca4dbcd9271bea8c29bb3af1d492be30e60e9b4c4435520f56ba9"
+  },
+  {
+    "file": "masonry-normal.webp",
+    "source": "https://polyhaven.com/a/large_sandstone_blocks",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 44524,
+    "sha256": "e3359153d9d82df50032000af0834157d0dd492b15fe68d7a7f9d925bfb4fc27"
+  },
+  {
+    "file": "masonry-rough.webp",
+    "source": "https://polyhaven.com/a/large_sandstone_blocks",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 50980,
+    "sha256": "d30b396780a95a40293232de697b28efdab5699225e375c9594c01e39530ff5a"
+  },
+  {
+    "file": "plaster-color.webp",
+    "source": "https://polyhaven.com/a/rough_plaster_03",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 337032,
+    "sha256": "9e954e6e9fd0e8ddaecbdf8657c7b0f16ac32dc6d172ac90a585b2a281d8f8f1"
+  },
+  {
+    "file": "plaster-normal.webp",
+    "source": "https://polyhaven.com/a/rough_plaster_03",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 107032,
+    "sha256": "648d08420eb9502ee14a765697047ec0cfdc0f6db86b04fd667ae91880456871"
+  },
+  {
+    "file": "plaster-rough.webp",
+    "source": "https://polyhaven.com/a/rough_plaster_03",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 67170,
+    "sha256": "77ee725168a36fe507f79c71d68e9dddf8d08caf396e7956ceaf9b86e88bfa70"
+  },
+  {
+    "file": "bark-color.webp",
+    "source": "https://polyhaven.com/a/bark_brown_01",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 402394,
+    "sha256": "cecaec9810c46529d9c3c928d958a96fc6dd37cbcc38702521c1462ccc3bfa4b"
+  },
+  {
+    "file": "bark-normal.webp",
+    "source": "https://polyhaven.com/a/bark_brown_01",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 135982,
+    "sha256": "40d74678232a5f41f876f46215cf6603b8d99a48a1f6a547975e397b800424e7"
+  },
+  {
+    "file": "bark-rough.webp",
+    "source": "https://polyhaven.com/a/bark_brown_01",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 23110,
+    "sha256": "8493f5bf8a92e43bb80e2e6398c4036c250712e39d36a504a6e613183d14cc2e"
+  },
+  {
+    "file": "rock-color.webp",
+    "source": "https://polyhaven.com/a/rock_moss_set_01",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 141070,
+    "sha256": "ac2f67a7b922923cbb4a800997ef9ff355e378370f2ac24e322811bd840bdcc3"
+  },
+  {
+    "file": "rock-normal.webp",
+    "source": "https://polyhaven.com/a/rock_moss_set_01",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 68892,
+    "sha256": "6bfa57e18a04391f1cd7fdee7972b6b0d32b9bfa79717dd925d4413c598763e5"
+  },
+  {
+    "file": "rock-rough.webp",
+    "source": "https://polyhaven.com/a/rock_moss_set_01",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 20696,
+    "sha256": "04fa7008cb0078effc2acf6d9a529fd5a9eb1a08edee511ba3ad6b6178fc4d38"
+  },
+  {
+    "file": "soil-color.webp",
+    "source": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 447986,
+    "sha256": "f604d95e119cae0506428c9c32a3c6fae59f09461efe24e5b09fc804e388d693"
+  },
+  {
+    "file": "soil-normal.webp",
+    "source": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 167518,
+    "sha256": "9b502b7424133833c971ce5452aa92b406ce4f47cf2246591cb49820758470cf"
+  },
+  {
+    "file": "soil-rough.webp",
+    "source": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 68088,
+    "sha256": "618a3b71036ad518d202772d6ece587d799bc62270509218df4ce89fcdfce04a"
+  },
+  {
+    "file": "paving-color.webp",
+    "source": "https://polyhaven.com/a/coast_rocks_02",
+    "license": "CC0",
+    "map": "color",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 271966,
+    "sha256": "a74be6baaec53776ee1aacc55a0d94fd04376380077496589a555d3addc7907a"
+  },
+  {
+    "file": "paving-normal.webp",
+    "source": "https://polyhaven.com/a/coast_rocks_02",
+    "license": "CC0",
+    "map": "normal",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 74354,
+    "sha256": "670961cf8cf30b151af0b882116999a8a38f82cbc439300628baf11470762af9"
+  },
+  {
+    "file": "paving-rough.webp",
+    "source": "https://polyhaven.com/a/coast_rocks_02",
+    "license": "CC0",
+    "map": "rough",
+    "size": [
+      512,
+      512
+    ],
+    "bytes": 20504,
+    "sha256": "1b37a610ef0c07b5b8aa2c2f407e8f1477887315102a7da44d0419030a12c38c"
+  },
+  {
+    "file": "grass.webp",
+    "source": "https://polyhaven.com/a/grass_medium_01",
+    "license": "CC0",
+    "map": "color and alpha",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 185730,
+    "sha256": "e515a85e89bb72a6470c92dd68b76204662876a14b57b9a15e7ba3a16433180d"
+  },
+  {
+    "file": "needles.webp",
+    "source": "https://polyhaven.com/a/pine_sapling_medium",
+    "license": "CC0",
+    "map": "color and alpha",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 256556,
+    "sha256": "a284a40b4d591d732dd2c84312ed6e26960d4c30404872924face16915125dd8"
+  }
+]
